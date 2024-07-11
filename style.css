@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    font-family: monospace;
+    color: white;
+}
+.text {
+    cursor: default;
+    user-select: none;
+}
+.divimg {
+    display: flex;
+    justify-content: space-between;
+}
+.imagesub {
+    width: 50vw;
+    align-content: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title {
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+select {
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 15px;
+    height: 25px;
+}
+.game {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.divplayer {
+    width: 50vw;
+    text-align: center;
+}
+.player {
+    font-size: x-large;
+    color: lime;
+}
+.play {
+    color: black;
+    font-family: monospace;
+    background-color: white;
+    transition: 0.3s ;
+}
+.play:hover {
+    color : white;
+    background-color: black;
+}
+.choice {
+    width: 150px;
+    text-align: center;
+}
+.choice1 {
+    font-size: larger;
+    font-weight: bolder;
+}
+.divResult {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.result1 {
+    font-size: larger;
+    font-weight: bolder;
+    display: flex;
+    
+    justify-content: center;
+}
+.result2 {
+    color:aqua;
+}
+.try {
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+    transition: background-color 0.5s;
+    width: 25vw;
+    align-items: center;
+}
+.try:hover {
+    color: white;
+    background-color: blue;
+}

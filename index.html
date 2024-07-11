@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS Game</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="divTitle">
+        <h1 id=" mainTitle" class="text title">Rock Paper Scissor Game</h1>
+    </div>
+    <div class="game">
+        <div class="divplayer">
+            <p class="text player1 player">You</p>
+            <select id="yourChoice">
+                <option value="Rock">Rock</option>
+                <option value="Paper">Paper</option>
+                <option value="Scissor">Scissor</option>
+            </select>      
+        </div>
+        <div class="divplayer computer">
+            <p class="text player2 player">Computer</p>
+        </div>
+    </div>
+
+    <div class="divimg">
+        <div class="imagesub">
+            <img src="image/apaya.jpg" id="gambar" height="100px" width="100px">
+        </div>
+        <div class="imagesub">
+            <img src="image/apaya.jpg" id="gambar1" height="100px" width="100px">
+        </div>
+    </div>
+
+    <div class="game playerchoice">
+        <div class="divplayer">
+            <span id="playChoice" class="text choice1">Your Choice</span>
+        </div>
+        <div class="divplayer">
+            <span id="compChoice" class="text choice1">Computer Choice</span>
+        </div>
+    </div>
+
+    <div class="divResult">
+        <button class="try" onclick="player()">Play</button>
+        <p class="text result1">The Result is : <span id="result" class="result2 text result1"></span> </p>
+        <button class="try" onclick="tryagain()">TRY AGAIN!</button>
+    </div>
+</body>
+</html>
